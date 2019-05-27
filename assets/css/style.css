@@ -1,0 +1,30 @@
+.cat {
+    animation: walking 1s steps(11) infinite;
+    height: 25px;
+    width: 50px;
+    background:url('http://stash.rachelnabors.com/animation-workshop/sprite_catwalk.png') 0 0 no-repeat;
+    background-size: cover;
+}
+
+@keyframes walking {
+    100% {background-position: 0 100%; }
+}
+
+
+.white-color {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+.card .view {
+    -webkit-border-radius: 200px 200px 0px 0px;
+    -moz-border-radius: 200px 200px 0px 0px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.tomb-container .card {
+    -webkit-border-radius: 200px 200px 0px 0px;
+    -moz-border-radius: 200px 200px 0px 0px;
+    border-radius: 200px 200px 0px 0px;
+}
