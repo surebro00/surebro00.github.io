@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Bentham';
+    src: url('../fonts/Bentham-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'ModernAntiqua';
+    src: url('../fonts/ModernAntiqua-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 .cat {
     animation: walking 1s steps(11) infinite;
     height: 25px;
@@ -23,8 +33,31 @@
     border-radius: 200px 200px 0px 0px;
 }
 
+.view.overlay {
+    max-height: 200px;
+}
+
+.card-img-top {
+    height: 100%;
+}
+
 .tomb-container .card {
     -webkit-border-radius: 200px 200px 0px 0px;
     -moz-border-radius: 200px 200px 0px 0px;
     border-radius: 200px 200px 0px 0px;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+.card-title {
+    font-family: ModernAntiqua, sans-serif;
+}
+
+.coming-soon {
+    text-align: center;
+    width: 100%;
+    margin-top:100px;
+    margin-bottom: 100px;
 }
