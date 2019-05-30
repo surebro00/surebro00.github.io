@@ -10,4 +10,6 @@ $(document).ready(function () {
                 scrollTop: $("#more_start").offset().top},
             'slow');
     });
+
+    commentBox('my-project-id');
 });
