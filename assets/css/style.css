@@ -8,6 +8,11 @@
     src: url('../fonts/ModernAntiqua-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+@font-face {
+    font-family: 'SnackerComic_PerosnalUseOnly';
+    src: url('../fonts/SnackerComic_PerosnalUseOnly.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 .cat {
     animation: walking 1s steps(11) infinite;
     height: 25px;
@@ -28,6 +33,10 @@
 
 body {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.rgba-stylish-strong {
+    background: transparent;
 }
 
 .card .view {
@@ -55,7 +64,15 @@ body {
 }
 
 .card-title {
-    font-family: ModernAntiqua, sans-serif;
+    font-family: "SnackerComic_PerosnalUseOnly", sans-serif;
+    font-size: 50px;
+    color: #333 !important;
+}
+
+.font-custom {
+    font-family: "SnackerComic_PerosnalUseOnly", sans-serif;
+    font-size: 30px;
+    color: #333 !important;
 }
 
 .coming-soon {
@@ -66,3 +83,11 @@ body {
 }
 
 
+.nav-link {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.navbar.navbar-dark .navbar-toggler-icon {
+    background-image: url("../imgs/menu.svg");
+}
