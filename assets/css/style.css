@@ -99,6 +99,24 @@ body {
     background-image: url("../imgs/menu.svg");
 }
 
+#more {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.send-yours {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 30px;
+    color: #333 !important;
+}
+
+.card-title-2 {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 30px;
+    color: #333 !important;
+}
 
 @media (min-width: 1024px) {
     .text-white.text-center.rgba-stylish-strong.py-5.px-4 {
